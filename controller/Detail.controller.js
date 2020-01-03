@@ -409,32 +409,24 @@ sap.ui.define([
 					oObj.isLocked = bSelected;
 					oObj.userName = oUserDetailModel.oData.userData.Uname;
 					oRelationItem.getModel("Incident").refresh();
-					//oRelationItem.setDescription(this.geti18NText("USER_LOCK", oUserDetailModel.oData.userData.Uname));
-					//this._wsIncidents.send(JSON.stringify(oLockIncident));
 					$.sap._wsIncidents.send(JSON.stringify(oLockIncident));
 
 				} else {
 
 					if (oUserDetailModel.oData.userData.Uname !== oInc.userName) {
 						MessageToast.show(this.geti18NText("USER_LOCK", oInc.userName));
-						//oRelationItem.setDescription(this.geti18NText("USER_LOCK", oInc.userName));
 						oRelationItem.setSelected(false);
 					} else {
 
 						oLockIncident.keyLock.push(oKeyLock);
-						//this._wsIncidents.send(JSON.stringify(oLockIncident));
 						$.sap._wsIncidents.send(JSON.stringify(oLockIncident));
 
 						if (!bSelected) {
-							//oRelationItem.setDescription("");
 							oObj.isLocked = bSelected;
 							oObj.userName = "";
 							oRelationItem.getModel("Incident").refresh();
 						}
-						/*else {
-							oRelationItem.setDescription(this.geti18NText("USER_LOCK", oInc.userName));
-						}*/
-
+						
 					}
 
 				}
@@ -497,12 +489,11 @@ sap.ui.define([
 					codigoCat: "",
 					tpAlert: ""
 				};
-				oR.land1 = aIncidents[i].key.substring(0, 2); //aIncidents[i].land1;
+				oR.land1 = aIncidents[i].key.substring(0, 2); 
 				oR.codigoCat = aIncidents[i].codCatMot;
 				oR.tpAlert = aIncidents[i].tpAlert;
 				aReasons.push(oR);
-				//setB.add(JSON.stringify(oR));
-
+				
 				var setAux = new Set([JSON.stringify((oR))]);
 
 				oIntersection = new Set([...setA].filter(x => setAux.has(x)));
