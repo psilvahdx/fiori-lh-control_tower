@@ -1,0 +1,29 @@
+<core:FragmentDefinition
+  xmlns="sap.m"
+  xmlns:core="sap.ui.core"
+  xmlns:layout="sap.ui.layout">
+  
+  <TableSelectDialog
+  	title="{i18n>COUNTRY_SELECT}"
+    class="sapUiPopupWithPadding"
+    items="{path: 'vm>/CustomizingCountry', sorter: 'vm>countryID'}"
+    multiSelect="true"
+    rememberSelections="true"
+    growingThreshold="240"
+    liveChange="onCountryValueHelpSearch"
+    search="onCountryValueHelpSearch"
+    confirm="onCountryValueHelpClose"
+    cancel="onCountryValueHelpCancel">
+  	<columns>
+			<Column>
+				<Text text="{i18n>COUNTRY_SELECT_ALL}"/>
+			</Column>
+	</columns>
+		<ColumnListItem>
+			<cells>
+				<ObjectIdentifier title="{vm>countryID}" text="{vm>country}"/>
+			</cells>
+		</ColumnListItem>
+  </TableSelectDialog>
+   
+</core:FragmentDefinition>

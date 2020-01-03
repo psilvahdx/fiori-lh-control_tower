@@ -1,0 +1,444 @@
+/* Enter your custom styles here */
+
+.sapMBtnInnerCustom {
+    vertical-align: top;
+    -webkit-appearance: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    box-sizing: border-box;
+    font-family: "72-Web", Arial, Helvetica, sans-serif;
+    font-size: 0.875rem;
+    height: 2.500rem;
+    min-width: 2.500rem;
+    top: 0.2rem;
+    right: 0.2rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    border: 0.5px solid #bfbfbf;
+    background-color:#f7f7f7;
+    font-weight: bold;
+}
+
+.sapMBtnInnerCustomA {
+    vertical-align: top;
+    -webkit-appearance: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    box-sizing: border-box;
+    font-family: "72-Web", Arial, Helvetica, sans-serif;
+    font-size: 0.875rem;
+    height: 2.500rem;
+    min-width: 2.500rem;
+    top: 0.2rem;
+    right: 5rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    border: 0.5px solid #bfbfbf;
+    background-color:#f7f7f7;
+    font-weight: bold;
+}
+
+.sapMBtnInnerCustomFolder {
+    vertical-align: top;
+    -webkit-appearance: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    box-sizing: border-box;
+    font-family: "72-Web", Arial, Helvetica, sans-serif;
+    font-size: 0.875rem;
+    height: 2.500rem;
+    min-width: 2.500rem;
+    top: 0.2rem;
+    right: 0.5rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+}
+
+.sapMBtnInnerCustomB {
+    vertical-align: top;
+    -webkit-appearance: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    box-sizing: border-box;
+    font-family: "72-Web", Arial, Helvetica, sans-serif;
+    font-size: 0.875rem;
+    height: 2.500rem;
+    min-width: 2.500rem;
+    top: 0.2rem;
+    right: 4rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+}
+
+.sapMBtnInnerCustomSLA {
+    vertical-align: top;
+    -webkit-appearance: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    box-sizing: border-box;
+    font-family: "72-Web", Arial, Helvetica, sans-serif;
+    font-size: 0.875rem;
+    height: 2.500rem;
+    min-width: 2.500rem;
+    top: 1.8rem;
+    right: 3.1rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+}
+
+.FormattedText {
+    font-family: "72-Web", Arial, Helvetica, sans-serif;
+    font-size: 0.875rem;
+    height: 2.500rem;
+    min-width: 2.500rem;
+    top: 2rem;
+    right: 4rem;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+
+.sapMListHdrCustom {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 1.125rem;
+    font-family: "72-Web", Arial, Helvetica, sans-serif;
+    height: 3rem;
+    line-height: 3rem;
+    padding: 0 1rem;
+}
+
+.sapMListHdrCustom .myCustomText {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.bgRoadSafety {
+    background-color: #c0504d;
+}
+
+.bgEficiency {
+    background-color: #8db3e2;
+}
+
+.bgCustomServ {
+    background-color: #ffc000;
+}
+
+.sapMNLB-Low {
+    background-color: #8db3e2;
+}
+
+.sapMNLB-High {
+    background-color: #c0504d;
+}
+
+.sapMNLB-Header {
+    padding-left: 0.6rem;
+    padding-right: 1rem;
+    padding-top: 0.2rem;
+    position: relative;
+}
+
+.sapMNLB-Priority {
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    width: 0.3125rem;
+    z-index: 1;
+}
+
+.sapMNLICustom-Body {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 0.45rem;
+    padding-right: 0rem;
+    position: relative;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.ContentLeft {
+	display: inline-block;
+	min-width: 190px;
+}
+.ContentRight {
+    display: inline-block;
+}
+
+.sapMLabel {
+/* display: inline-block; */
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: text;
+}
+
+.sapUiIconCustom {
+    vertical-align: middle;
+    border-radius: 50%;
+    width: 25px;
+    height: 28px;
+}
+.customChartContainer{
+	position: relative;
+	margin-right: 1%;
+	margin-top: 0.5%;
+	right: -90%;
+	width: 100px;
+	height: 78px;
+}
+.customMsgStripContainer{
+    position: absolute;
+    height: 70px;
+    padding-left: 0.5rem;
+    width: 350px;
+    text-align: right;
+    top: 0rem;
+}
+
+.btnTimer .sapMBtnTransparent {
+	color: #000000;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+html.sap-desktop .btnTimer .sapMBtnTransparent>.sapMBtnIcon {
+     color: #000000;
+}
+
+.btnTimer .sapMBtnIcon {
+    font-size: 1.375rem;
+    line-height: 2.155rem;
+    width: 2.375rem;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    max-height: 2.375rem;
+    color: #000000;
+}
+
+.customChartCanvas{
+	display: block;
+	width: 200px;
+	height: 110px;
+	
+}
+.kpiCenter {
+    position: absolute;
+    text-align: center;
+    display: block;
+    margin-top: -2%;
+    right:5.5%;      
+    width: auto;
+	height: auto;
+}
+
+.sapSuiteRMCFont {
+    font-family: Arial,Helvetica,sans-serif;
+    font-weight: bold;
+    font-size: 315px;
+    color: #000000;
+}
+.sapSuiteRMCNeutralTextColor {
+     fill: #000000;
+}
+
+
+.kpiRelative {
+    position: relative;
+}
+
+.nestedFlexboxes {
+    display: block;
+    margin-left: 31.5%;
+    margin-right: auto;
+    width: 40%;
+    top: 0.1rem;
+    position: absolute;
+}
+
+.item1 {
+    border: 3px solid #bfbfbf;
+    text-align: center;
+    padding: 0.5rem;
+    width: 60px;
+    margin-top: 0rem;
+    background-color:#f7f7f7; 
+}
+
+.nestedFlexboxes2 {
+    display: block;
+    margin-left: 30.8%;
+    margin-right: auto;
+    width: 39.5%;
+    top: 0.5rem;
+    position: absolute;
+}
+.item2 {
+    font-family: "72-Web", Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 0.4rem 0rem 0rem 0rem;
+    width: 100px;
+    margin-top: 2.5rem;    
+    font-size: 0.8rem;
+    position: absolute;
+    font-weight: bold;
+}
+
+
+.sapMTitleStyleAutoCustom {
+    font-size: 1.5rem;
+	font-style: italic;
+	font-weight: bold;
+	font-family: "72-Web", Arial, Helvetica, sans-serif;
+}
+.sapMLabelCard {        
+	/* color: #000000; */
+    /* display: inline-block; */
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: text;
+    font-size: 0.8rem;
+    padding-right: 0.2rem;
+    padding-top: 0.12rem;
+}
+.sapMTextCard {	
+    font-size: 0.698rem;
+    font-family: Arial,Helvetica,sans-serif;
+    line-height: normal;
+}
+.sapMTextCard1 {	
+    font-size: 0.698rem;
+    font-family: Arial,Helvetica,sans-serif;
+    line-height: normal;
+}
+.sapMTextShortName{
+    font-weight: bold;
+    color: #666666;
+    max-width: 270px;
+}
+.customRadial .sapSuiteRMCPathIncomplete {
+    stroke: rgba(234, 52, 20);
+}
+.customRadial .sapSuiteRMCPathNeutral {
+    stroke: rgba(93, 197, 27);
+}
+/*.customTextRelation {
+    font-weight: bold;
+    color: #666666;
+    min-width: 470px;
+}
+.iconStatusIncident {
+    top: 1rem;
+}*/
+.customTextRelation {
+    font-weight: bold;
+    color: #666666;
+    min-width: 300px;
+}
+
+.customLabelRelation {        
+    min-width: 30px;
+}
+
+.iconStatusIncident {
+    margin-top: 0.8rem;
+    margin-left: 31.2rem;
+    position: absolute;
+}
+.sapMLblCustDetail {
+	font-weight: bold;
+	color: #666666;
+	vertical-align: top;
+	padding: 0rem 0.5rem 0.5rem 0rem;
+}
+.detailContainer {
+	min-height: 18em;
+	min-width: 100%;
+    background-color:#FFFFFF; 
+}
+.sapMOHR .sapMOHRAttr .sapMObjectAttributeTitle, .sapMOHR .sapMOHRAttr .sapMObjectAttributeText {
+    display: inline-block;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 0.875rem;
+    font-weight: normal;
+    color: #666666;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    vertical-align: middle;
+}
+.formDetail{
+	 background-color: #FFFFFF;
+}
+
+.formDetail Label {
+	font-weight: bold;
+    color: #000000;
+}
+
+.CustomAtribForm {
+	
+}
+
+.CustomAtribForm Label {
+	font-weight: bold;
+    color: #000000;
+}
+
+
+.sapMListHdrDetailCustom {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 1rem;
+    font-family: Arial,Helvetica,sans-serif;
+    text-shadow: 0 1px 0 #ffffff;
+    color: #000000;
+    height: 2rem;
+    line-height: 2rem;
+    padding: 0 1rem;
+    background-color: #ffffff;
+    font-weight: bold;
+    min-width: 600px;
+}

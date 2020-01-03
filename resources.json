@@ -1,0 +1,177 @@
+{
+    "resources": [
+        {
+            "name": "model/GoogleMaps.js"
+        },
+        {
+            "name": "model/moment.js"
+        },
+        {
+            "name": "model/Formatter.js"
+        },
+        {
+            "name": "model/models.js"
+        },
+        {
+            "name": ".project.json"
+        },
+        {
+            "name": ".user.project.json"
+        },
+        {
+            "name": "controller/Incidents.controller.js"
+        },
+        {
+            "name": "controller/App.controller.js"
+        },
+        {
+            "name": "controller/BaseController.js"
+        },
+        {
+            "name": "controller/Detail.controller.js"
+        },
+        {
+            "name": "index.html"
+        },
+        {
+            "name": "neo-app.json"
+        },
+        {
+            "name": "manifest.json"
+        },
+        {
+            "name": "localService/mockData/Reasons.json"
+        },
+        {
+            "name": "localService/mockData/Kpi.json"
+        },
+        {
+            "name": "localService/mockData/Incidents.json"
+        },
+        {
+            "name": "localService/mockData/Countryes.json"
+        },
+        {
+            "name": "localService/metadata.xml"
+        },
+        {
+            "name": "Component-preload.js",
+            "merged": true
+        },
+        {
+            "name": "Component.js"
+        },
+        {
+            "name": "view/App.view.xml"
+        },
+        {
+            "name": "view/Detail.view.xml"
+        },
+        {
+            "name": "view/KpiPopover.fragment.xml"
+        },
+        {
+            "name": "view/Countryes.fragment.xml"
+        },
+        {
+            "name": "view/Filters.fragment.xml"
+        },
+        {
+            "name": "view/Incidents.view.xml"
+        },
+        {
+            "name": "view/UserDetailPopover.fragment.xml"
+        },
+        {
+            "name": "resources.json",
+            "merged": true
+        },
+        {
+            "name": "i18n/i18n_ES.properties",
+            "raw": "i18n/i18n.properties"
+        },
+        {
+            "name": "i18n/i18n_EN.properties",
+            "raw": "i18n/i18n.properties"
+        },
+        {
+            "name": "i18n/i18n_pt.properties",
+            "raw": "i18n/i18n.properties"
+        },
+        {
+            "name": "css/style.css"
+        },
+        {
+            "name": "imgs/SV.jpg"
+        },
+        {
+            "name": "imgs/CO.jpg"
+        },
+        {
+            "name": "imgs/AR.jpg"
+        },
+        {
+            "name": "imgs/icon-store.png"
+        },
+        {
+            "name": "imgs/CR.jpg"
+        },
+        {
+            "name": "imgs/CA.jpg"
+        },
+        {
+            "name": "imgs/BO.jpg"
+        },
+        {
+            "name": "imgs/UY.jpg"
+        },
+        {
+            "name": "imgs/EC.jpg"
+        },
+        {
+            "name": "imgs/USA.jpg"
+        },
+        {
+            "name": "imgs/PR.jpg"
+        },
+        {
+            "name": "imgs/LASER.png"
+        },
+        {
+            "name": "imgs/PE.jpg"
+        },
+        {
+            "name": "imgs/BR.jpg"
+        },
+        {
+            "name": "imgs/CU.jpg"
+        },
+        {
+            "name": "imgs/ES.jpg"
+        },
+        {
+            "name": "imgs/icon-industry.png"
+        },
+        {
+            "name": "imgs/WarningPinMarker.png"
+        },
+        {
+            "name": "imgs/NI.jpg"
+        },
+        {
+            "name": "imgs/VE.jpg"
+        },
+        {
+            "name": "imgs/PY.jpg"
+        },
+        {
+            "name": "imgs/MX.jpg"
+        },
+        {
+            "name": "imgs/CL.jpg"
+        },
+        {
+            "name": "imgs/Warning2PinMarker.png"
+        }
+    ]
+}

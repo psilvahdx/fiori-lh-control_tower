@@ -1,0 +1,130 @@
+{
+    "_version": "1.5.0",
+    "sap.app": {
+        "id": "sap.holcim.zctrl_tower",
+        "type": "application",
+        "i18n": "i18n/i18n.properties",
+        "applicationVersion": {
+            "version": "1.0.0"
+        },
+        "title": "{{appTitle}}",
+        "description": "{{appDescription}}",
+        "sourceTemplate": {
+            "id": "servicecatalog.connectivityComponent",
+            "version": "0.0.0"
+        },
+        "dataSources": {
+            "ZAPP_CTRL_TWR_SRV": {
+                "uri": "/sap/opu/odata/sap/ZAPP_CTRL_TWR_SRV/",
+                "type": "OData",
+                "settings": {
+                    "odataVersion": "2.0",
+                    "localUri": "localService/metadata.xml"
+                }
+            }
+        }
+    },
+    "sap.ui": {
+        "technology": "UI5",
+        "icons": {
+            "icon": "",
+            "favIcon": "",
+            "phone": "",
+            "phone@2": "",
+            "tablet": "",
+            "tablet@2": ""
+        },
+        "deviceTypes": {
+            "desktop": true,
+            "tablet": true,
+            "phone": true
+        },
+        "supportedThemes": [
+            "sap_hcb",
+            "sap_bluecrystal"
+        ]
+    },
+    "sap.ui5": {
+        "rootView": {
+            "viewName": "sap.holcim.zctrl_tower.view.App",
+            "type": "XML",
+            "async": true
+        },
+        "dependencies": {
+            "minUI5Version": "1.30.0",
+            "libs": {
+                "sap.m": {},
+                "sap.suite.ui.microchart": {},
+                "sap.ui.core": {},
+                "sap.ui.layout": {},
+                "sap.ui.unified": {}
+            }
+        },
+        "contentDensities": {
+            "compact": true,
+            "cozy": true
+        },
+        "models": {
+            "i18n": {
+                "type": "sap.ui.model.resource.ResourceModel",
+                "settings": {
+                    "bundleName": "sap.holcim.zctrl_tower.i18n.i18n"
+                }
+            }
+        },
+        "routing": {
+            "config": {
+                "routerClass": "sap.m.routing.Router",
+                "viewType": "XML",
+                "viewPath": "sap.holcim.zctrl_tower.view",
+                "controlId": "app",
+                "controlAggregation": "pages",
+                "async": true
+            },
+            "routes": [
+                {
+                    "pattern": "",
+                    "name": "app",
+                    "target": "app"
+                },
+                {
+                    "pattern": "detail/Incident/{key}",
+                    "name": "detail",
+                    "target": "detail"
+                },
+                {
+                    "pattern": "detail/Incident/{key}",
+                    "name": "detail2",
+                    "target": "detail2"
+                }
+            ],
+            "targets": {
+                "app": {
+                    "viewID": "app",
+                    "viewName": "App"
+                },
+                "detail": {
+                    "viewId": "detail",
+                    "viewName": "Detail",
+                    "viewLevel": 1
+                },
+                "detail2": {
+                    "viewId": "detail",
+                    "viewName": "Detail",
+                    "viewLevel": 2
+                }
+            }
+        },
+        "resources": {
+            "css": [
+                {
+                    "uri": "css/style.css"
+                }
+            ]
+        }
+    },
+    "sap.platform.abap": {
+        "uri": "/sap/bc/ui5_ui5/sap/zctrl_tower",
+        "_version": "1.1.0"
+    }
+}

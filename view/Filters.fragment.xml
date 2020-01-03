@@ -1,0 +1,65 @@
+<Dialog xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form" title="{i18n>FILTERS_TITLE}"
+	contentWidth="750px" contentHeight="340px">
+	<customHeader>
+		<Bar>
+			<contentLeft></contentLeft>
+			<contentMiddle>
+				<Text text="{i18n>FILTERS_TITLE}"></Text>
+			</contentMiddle>
+			<contentRight></contentRight>
+		</Bar>
+	</customHeader>
+	<content>
+		<VBox class="sapUiSmallMargin">
+			<f:Form id="FormToolbar" editable="true" ariaLabelledBy="Title1">
+				<f:toolbar>
+					<Toolbar id="TB1">
+						<Button tooltip="{i18n>BTN_CLEAR_FILTER}" icon="sap-icon://clear-filter" press="handleClearFilter"></Button>
+						<ToolbarSpacer/>
+					</Toolbar>
+				</f:toolbar>
+				<f:layout>
+					<f:ResponsiveGridLayout/>
+				</f:layout>
+				<f:formContainers>
+					<f:FormContainer ariaLabelledBy="Title2">
+						<f:formElements>
+							<f:FormElement label="{i18n>FILTER_PERIOD}">
+								<f:fields>
+										<RadioButtonGroup columns="2" select="onRbPeriodSelect">
+										<buttons>
+											<RadioButton id="RBAll" text="{i18n>PERIOD_ALL}"/>
+											<RadioButton id="RBToday" text="{i18n>PERIOD_TODAY}"/>
+										</buttons>
+									</RadioButtonGroup>
+									<!--<DatePicker id="dtFrom" value="{filter>/dateFrom}" valueFormat="yyyyMMdd" displayFormat="dd.MM.yyyy" change="onDateFromChange">
+										<layoutData>
+											<l:GridData span="L2 M4 S4"/>
+										</layoutData>
+									</DatePicker>
+									<Text text="{i18n>PERIOD_TO}" textAlign="Center"></Text>
+									<DatePicker id="dtTo" value="{filter>/dateTo}" valueFormat="yyyyMMdd" displayFormat="dd.MM.yyyy">
+										<layoutData>
+											<l:GridData span="L2 M4 S4"/>
+										</layoutData>
+									</DatePicker>-->
+								</f:fields>
+							</f:FormElement>
+							<f:FormElement label="{i18n>COUNTRY_SELECT}">
+								<f:fields>
+									<MultiInput placeholder="{i18n>COUNTRY_SELECT_PLCHLD}" valueHelpOnly="true" valueHelpRequest="onCountryF4" id="mInpCountryes"
+										enableMultiLineMode="true" suggestionItems="{ path: 'vm>/CustomizingCountry', sorter: { path: 'vm>countryID' } }">
+										<core:Item key="{vm>countryID}" text="{vm>country}"/>
+									</MultiInput>
+								</f:fields>
+							</f:FormElement>
+						</f:formElements>
+					</f:FormContainer>
+				</f:formContainers>
+			</f:Form>
+		</VBox>
+	</content>
+	<buttons>
+		<Button id="btnFilterOK" text="{i18n>FILTER_OK}" press="handleConfirmFilter"/>
+	</buttons>
+</Dialog>

@@ -1,0 +1,43 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core">
+	<Popover
+		showHeader="false"
+		contentWidth="320px"
+		contentHeight="500px"
+		placement="Bottom" >
+		<NavContainer
+			id="navCon">
+			<Page
+				id="master"
+				title="{i18n>usersLabel}">
+				<List
+					id="list"
+					items="{ path: 'user>/connectedUsers', sorter: 'id' }" >
+					<StandardListItem
+						icon="sap-icon://employee"
+						title="{user>address/fullname}"
+						description="{user>address/name}"
+						type="Active"
+						press="onNavToUser"
+						iconDensityAware="false"
+						iconInset="false" />
+				</List>
+			</Page>
+			<Page
+				id="detail"
+				showNavButton="true"
+				navButtonPress="onNavBack"
+				title="{i18n>usersLabel}">
+				<ObjectHeader
+					title="{user>id}" >
+					<attributes>
+						<ObjectAttribute title="{i18n>PPV_USER_NAME}"  text="{user>address/fullname}" />
+						<ObjectAttribute title="{i18n>PPV_USER_EMAIL}" text="{user>address/e_mail}" />
+						<ObjectAttribute title="{i18n>PPV_USER_PHONE}" text="{user>address/tel1_numbr}" />
+					</attributes>
+				</ObjectHeader>
+			</Page>
+		</NavContainer>
+	</Popover>
+</core:FragmentDefinition>

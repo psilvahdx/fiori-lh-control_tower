@@ -1,0 +1,339 @@
+<mvc:View xmlns:core="sap.ui.core" controllerName="sap.holcim.zctrl_tower.controller.App" xmlns:html="http://www.w3.org/1999/xhtml"
+	xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns:l="sap.ui.layout" xmlns="sap.m" xmlns:f="sap.ui.layout.form"
+	xmlns:r="sap.suite.ui.microchart">
+	<App id="app">
+		<pages>
+			<Page id="incidentWindow" enableScrolling="false">
+				<customHeader>
+					<Bar>
+						<contentLeft>
+							<Button id="btnOpenFilters" tooltip="{i18n>FILTERS_TITLE}" icon="sap-icon://filter" press="onFilterOpen"></Button>
+							<Button text="{i18n>usersLabel}" press="onOpenPopover" tooltip="{i18n>usersLabel}" icon="sap-icon://employee" iconFirst="true"></Button>
+							<Button press="_handleLogout" tooltip="{i18n>BTN_LOGOUT}" icon="sap-icon://log"></Button>
+						</contentLeft>
+						<contentMiddle>
+							<Text class="sapMTitleStyleAutoCustom" text="{i18n>SUB_TITLE}"></Text>
+						</contentMiddle>
+						<contentRight>
+							<Image src="./imgs/LASER.png" tooltip="{i18n>SUB_LASER}" width="100px"></Image>
+						</contentRight>
+					</Bar>
+				</customHeader>
+				<content>
+					<VBox fitContainer="true" justifyContent="End" alignItems="End" class="customMsgStripContainer">
+						<Button id="btnKpiRefresh" class="btnTimer"
+							tooltip="{parts:['i18n>INFO_UPDATE_KPIS' , 'KpiSLA>/dtLastUpd', 'KpiSLA>/dtNextUpd' ], formatter: 'jQuery.sap.formatMessage'}"
+							text="{KpiSLA>/timer}" type="Transparent" icon="sap-icon://fob-watch"></Button>
+					</VBox>
+					<VBox fitContainer="true" justifyContent="End" alignItems="End" class="customChartContainer">
+						<r:RadialMicroChart class="customRadial" width="100px" total="{KpiSLA>/total}" fraction="{KpiSLA>/green}"
+							tooltip="{i18n>OUTSIDE_SLA_TXT} : {KpiSLA>/red}, {i18n>WITHIN_SLA_TXT}: {KpiSLA>/green}" press="kpiSlaPress"></r:RadialMicroChart>
+					</VBox>
+					<l:VerticalLayout class="sapUiContentPadding nestedFlexboxes">
+						<l:content>
+							<HBox fitContainer="true" alignItems="Stretch" height="1em">
+								<items>
+									<core:HTML content="&lt;h2 class='item1' title='{i18n>LBL_A1}' &gt; {KpiSLA>/a1} &lt;/h2&gt;">
+										<core:layoutData>
+											<FlexItemData growFactor="3"/>
+										</core:layoutData>
+									</core:HTML>
+									<core:HTML content="&lt;h2 class='item1' title='{i18n>LBL_A3}' &gt; {KpiSLA>/a3} &lt;/h2&gt;">
+										<core:layoutData>
+											<FlexItemData growFactor="3"/>
+										</core:layoutData>
+									</core:HTML>
+									<core:HTML content="&lt;h2 class='item1' title='{i18n>LBL_A6}' &gt; {KpiSLA>/a6} &lt;/h2&gt;">
+										<core:layoutData>
+											<FlexItemData growFactor="3"/>
+										</core:layoutData>
+									</core:HTML>
+									<core:HTML content="&lt;h2 class='item1' title='{i18n>LBL_A2}' &gt; {KpiSLA>/a2} &lt;/h2&gt;">
+										<core:layoutData>
+											<FlexItemData growFactor="3"/>
+										</core:layoutData>
+									</core:HTML>
+								</items>
+							</HBox>
+						</l:content>
+					</l:VerticalLayout>
+					<l:VerticalLayout class="sapUiContentPadding nestedFlexboxes2">
+						<l:content>
+							<HBox fitContainer="true" alignItems="Stretch" height="0.5em">
+								<items>
+									<core:HTML content="&lt;spam class='item2' title='A1' &gt; {i18n>LBL_A1} &lt;/spam&gt;">
+										<core:layoutData>
+											<FlexItemData growFactor="3"/>
+										</core:layoutData>
+									</core:HTML>
+									<core:HTML content="&lt;spam class='item2' title='A3' &gt; {i18n>LBL_A3} &lt;/spam&gt;">
+										<core:layoutData>
+											<FlexItemData growFactor="3"/>
+										</core:layoutData>
+									</core:HTML>
+									<core:HTML content="&lt;spam class='item2' title='A6' &gt; {i18n>LBL_A6} &lt;/spam&gt;">
+										<core:layoutData>
+											<FlexItemData growFactor="3"/>
+										</core:layoutData>
+									</core:HTML>
+									<core:HTML content="&lt;spam class='item2' title='A2' &gt; {i18n>LBL_A2} &lt;/spam&gt;">
+										<core:layoutData>
+											<FlexItemData growFactor="3"/>
+										</core:layoutData>
+									</core:HTML>
+								</items>
+							</HBox>
+						</l:content>
+					</l:VerticalLayout>
+					<!--HEADER LIST INI-->
+					<ScrollContainer vertical="false" width="98.8%" height="80px">
+					<l:Grid defaultSpan="L4 M6 S12" class="sapUiSmallMarginTop">
+							<l:VerticalLayout class="sapUiContentPadding" width="100%">
+								<l:content>
+									<List showNoData="false">
+										<headerToolbar>
+											<Toolbar class="bgRoadSafety">
+												<content>
+													<FormattedText htmlText="{i18n>ROAD_SAFETY_TITLE}" class="sapMListHdrCustom myCustomText"></FormattedText>
+													<Button tooltip="{i18n>LBL_A4}" text="{KpiSLA>/a4Rs}" class="sapMBtnInnerCustomA"></Button>
+													<Button tooltip="{i18n>LBL_A5}" text="{KpiSLA>/a5Rs}" class="sapMBtnInnerCustom"></Button>
+												</content>
+											</Toolbar>
+										</headerToolbar>
+									</List>	
+								</l:content>		
+							</l:VerticalLayout>
+							
+							<l:VerticalLayout class="sapUiContentPadding" width="100%">
+								<l:content>
+									<List showNoData="false">
+											<headerToolbar>
+										<Toolbar class="bgEficiency">
+											<content>
+												<FormattedText htmlText="{i18n>EFICIENCY_TITLE}" class="sapMListHdrCustom myCustomText"></FormattedText>
+												<Button tooltip="{i18n>LBL_A4}" text="{KpiSLA>/a4Ef}" class="sapMBtnInnerCustomA"></Button>
+												<Button tooltip="{i18n>LBL_A5}" text="{KpiSLA>/a5Ef}" class="sapMBtnInnerCustom"></Button>
+											</content>
+										</Toolbar>
+									</headerToolbar>
+									</List>	
+								</l:content>		
+							</l:VerticalLayout>
+							
+							
+							<l:VerticalLayout class="sapUiContentPadding" width="100%">
+								<l:content>
+									<List showNoData="false">
+									<headerToolbar>
+										<Toolbar class="bgCustomServ">
+											<content>
+												<FormattedText htmlText="{i18n>CUSTOMER_SERVICE_TITLE}" class="sapMListHdrCustom myCustomText"></FormattedText>
+												<Button tooltip="{i18n>LBL_A4}" text="{KpiSLA>/a4Sv}" class="sapMBtnInnerCustomA"></Button>
+												<Button tooltip="{i18n>LBL_A5}" text="{KpiSLA>/a5Sv}" class="sapMBtnInnerCustom"></Button>
+											</content>
+										</Toolbar>
+									</headerToolbar>
+									</List>	
+								</l:content>		
+							</l:VerticalLayout>
+						</l:Grid>
+					</ScrollContainer>
+					<!--HEADER LIST END-->
+					
+				<!--CONTENT INI-->
+				<ScrollContainer height="400px" vertical="true" class="CustomContentScroll">
+					<l:Grid defaultSpan="L4 M6 S12">
+						<l:VerticalLayout class="sapUiContentPadding" width="100%">
+							<l:content>
+								<List
+									items="{path: 'Incident>/Incident', filters: [{ path: 'tpAlert', operator: 'EQ', value1: 'RS' }], sorter: { path: 'tspSlaJson', descending: false } }"
+									id="roadSafetyList" growing="true" growingScrollToLoad="false" growingThreshold="100">
+									<CustomListItem class="sapMLIB sapMNLB sapMNLI sapUiSmallMarginTop">
+										<Hbox>
+											<Vbox class="sapMNLB-High sapMNLB-Priority"/>
+											<Hbox class="flex-row">
+												<Hbox class="sapMNLB-Header sapMNLI-Header">
+													<vbox>
+														<Image class="sapUiIconCustom" src="{path: 'Incident>land1', formatter: '.formatter.getCoutryFlag'}" tooltip="{Incident>land1}"></Image>
+													</vbox>
+													<vbox class="sapMNLICustom-Body">
+														<Text class="sapMTextShortName" text="{Incident>nomeCurto}"></Text>
+													</vbox>
+												</Hbox>
+												<Hbox class="sapUiSmallMarginTop"></Hbox>
+												<Hbox class="sapMNLICustom-Body">
+													<vbox class="ContentLeft">
+														<Hbox>
+															<Label class="sapMLabelCard" design="Bold" text="{i18n>LBL_CARRIER}:"/>
+															<Text class="sapMTextCard" text="{Incident>tdlnr}"/>
+														</Hbox>
+														<Hbox>
+															<Label class="sapMLabelCard" design="Bold" text="{i18n>LBL_VEHICLE}:"/>
+															<Text class="sapMTextCard" text="{Incident>vehicle}"/>
+														</Hbox>
+													</vbox>
+													<vbox class="ContentRight">
+														<Hbox>
+															<Label class="sapMLabelCard" design="Bold" text="{i18n>LBL_TRIP_TYPE}:"/>
+															<Text class="sapMTextCard1" text="{Incident>tripType}"/>
+														</Hbox>
+														<Hbox>
+															<Label class="sapMLabelCard" design="Bold" text="{i18n>LBL_TRIP_NUM}:"/>
+															<Text class="sapMTextCard1" text="{Incident>tknum}"/>
+														</Hbox>
+													</vbox>
+												</Hbox>
+												<Hbox class="sapMNLICustom-Body">
+													<Label class="sapMLabelCard" design="Bold" text="{i18n>LBL_DRIVER_NAME}:"/>
+													<Text class="sapMTextCard" text="{Incident>driverName}"/>
+												</Hbox>
+											</Hbox>
+											<vbox class="sapMBtnInnerCustomSLA">
+												<Label design="Bold" tooltip="{path: 'Incident>tspSlaJson', formatter: 'sap.holcim.zctrl_tower.model.Formatter.formatDate'}">
+													<customData>
+														<core:CustomData key="lblSla" writeToDom="true"
+															value="{parts:[{path: 'Incident>key'},{path: 'Incident>tspSlaJson'}], formatter: 'sap.holcim.zctrl_tower.model.Formatter.setCountDownKeyRS'}"></core:CustomData>
+													</customData>
+												</Label>
+											</vbox>
+											<vbox class="sapMBtnInnerCustomFolder">
+												<Button icon="{path: 'Incident>isLocked', formatter: '.formatter.showFolder'}"
+													tooltip="{path: 'Incident>userName', formatter: '.formatter.displayUserLock'}" press="onListItemPress"></Button>
+											</vbox>
+										</Hbox>
+									</CustomListItem>
+								</List>
+							</l:content>
+						</l:VerticalLayout>
+						<l:VerticalLayout class="sapUiContentPadding" width="100%">
+							<l:content>
+								<List
+									items="{path: 'Incident>/Incident', filters: [{ path: 'tpAlert', operator: 'EQ', value1: 'EF' }], sorter: { path: 'tspSlaJson', descending: false } }"
+									id="eficiencyList" growing="true" growingScrollToLoad="false" growingThreshold="100">
+									<CustomListItem class="sapMLIB sapMNLB sapMNLI sapUiSmallMarginTop">
+										<Hbox>
+											<Vbox class="sapMNLB-Low sapMNLB-Priority"/>
+											<Hbox class="flex-row">
+												<Hbox class="sapMNLB-Header sapMNLI-Header">
+													<vbox>
+														<Image class="sapUiIconCustom" src="{path: 'Incident>land1', formatter: '.formatter.getCoutryFlag'}" tooltip="{Incident>land1}"></Image>
+													</vbox>
+													<vbox class="sapMNLICustom-Body">
+														<Text class="sapMTextShortName" text="{Incident>nomeCurto}"></Text>
+													</vbox>
+												</Hbox>
+												<Hbox class="sapUiSmallMarginTop"></Hbox>
+												<Hbox class="sapMNLICustom-Body">
+													<vbox class="ContentLeft">
+														<Hbox>
+															<Label class="sapMLabelCard" design="Bold" text="{i18n>LBL_CARRIER}:"/>
+															<Text class="sapMTextCard" text="{Incident>tdlnr}"/>
+														</Hbox>
+														<Hbox>
+															<Label class="sapMLabelCard" design="Bold" text="{i18n>LBL_VEHICLE}:"/>
+															<Text class="sapMTextCard" text="{Incident>vehicle}"/>
+														</Hbox>
+													</vbox>
+													<vbox class="ContentRight">
+														<Hbox>
+															<Label class="sapMLabelCard" design="Bold" text="{i18n>LBL_TRIP_TYPE}:"/>
+															<Text class="sapMTextCard1" text="{Incident>tripType}"/>
+														</Hbox>
+														<Hbox>
+															<Label class="sapMLabelCard" design="Bold" text="{i18n>LBL_TRIP_NUM}:"/>
+															<Text class="sapMTextCard1" text="{Incident>tknum}"/>
+														</Hbox>
+													</vbox>
+												</Hbox>
+												<Hbox class="sapMNLICustom-Body">
+													<Label class="sapMLabelCard" design="Bold" text="{i18n>LBL_DRIVER_NAME}:"/>
+													<Text class="sapMTextCard" text="{Incident>driverName}"/>
+												</Hbox>
+											</Hbox>
+											<vbox class="sapMBtnInnerCustomSLA">
+												<Label design="Bold" tooltip="{path: 'Incident>tspSlaJson', formatter: 'sap.holcim.zctrl_tower.model.Formatter.formatDate'}">
+													<customData>
+														<core:CustomData key="lblSla" writeToDom="true"
+															value="{parts:[{path: 'Incident>key'},{path: 'Incident>tspSlaJson'}], formatter: 'sap.holcim.zctrl_tower.model.Formatter.setCountDownKeyRS'}"></core:CustomData>
+													</customData>
+												</Label>
+											</vbox>
+											<vbox class="sapMBtnInnerCustomFolder">
+												<Button icon="{path: 'Incident>isLocked', formatter: '.formatter.showFolder'}"
+													tooltip="{path: 'Incident>userName', formatter: '.formatter.displayUserLock'}" press="onListItemPress"></Button>
+											</vbox>
+										</Hbox>
+									</CustomListItem>
+								</List>
+							</l:content>
+						</l:VerticalLayout>
+						<l:VerticalLayout class="sapUiContentPadding" width="100%">
+							<l:content>
+								<List
+									items="{path: 'Incident>/Incident', filters: [{ path: 'tpAlert', operator: 'EQ', value1: 'SV' }], sorter: { path: 'tspSlaJson', descending: false } }"
+									id="customSrvList" growing="true" growingScrollToLoad="false" growingThreshold="100">
+									<CustomListItem class="sapMLIB sapMNLB sapMNLI sapUiSmallMarginTop">
+										<Hbox>
+											<Vbox class="sapMNLB-Medium sapMNLB-Priority"/>
+											<Hbox class="flex-row">
+												<Hbox class="sapMNLB-Header sapMNLI-Header">
+													<vbox>
+														<Image class="sapUiIconCustom" src="{path: 'Incident>land1', formatter: '.formatter.getCoutryFlag'}" tooltip="{Incident>land1}"></Image>
+													</vbox>
+													<vbox class="sapMNLICustom-Body">
+														<Text class="sapMTextShortName" text="{Incident>nomeCurto}"></Text>
+													</vbox>
+												</Hbox>
+												<Hbox class="sapUiSmallMarginTop"></Hbox>
+												<Hbox class="sapMNLICustom-Body">
+													<vbox class="ContentLeft">
+														<Hbox>
+															<Label class="sapMLabelCard" design="Bold" text="{i18n>LBL_CARRIER}:"/>
+															<Text class="sapMTextCard" text="{Incident>tdlnr}"/>
+														</Hbox>
+														<Hbox>
+															<Label class="sapMLabelCard" design="Bold" text="{i18n>LBL_VEHICLE}:"/>
+															<Text class="sapMTextCard" text="{Incident>vehicle}"/>
+														</Hbox>
+													</vbox>
+													<vbox class="ContentRight">
+														<Hbox>
+															<Label class="sapMLabelCard" design="Bold" text="{i18n>LBL_TRIP_TYPE}:"/>
+															<Text class="sapMTextCard1" text="{Incident>tripType}"/>
+														</Hbox>
+														<Hbox>
+															<Label class="sapMLabelCard" design="Bold" text="{i18n>LBL_TRIP_NUM}:"/>
+															<Text class="sapMTextCard1" text="{Incident>tknum}"/>
+														</Hbox>
+													</vbox>
+												</Hbox>
+												<Hbox class="sapMNLICustom-Body">
+													<Label class="sapMLabelCard" design="Bold" text="{i18n>LBL_DRIVER_NAME}:"/>
+													<Text class="sapMTextCard" text="{Incident>driverName}"/>
+												</Hbox>
+											</Hbox>
+											<vbox class="sapMBtnInnerCustomSLA">
+												<Label design="Bold" tooltip="{path: 'Incident>tspSlaJson', formatter: 'sap.holcim.zctrl_tower.model.Formatter.formatDate'}">
+													<customData>
+														<core:CustomData key="lblSla" writeToDom="true"
+															value="{parts:[{path: 'Incident>key'},{path: 'Incident>tspSlaJson'}], formatter: 'sap.holcim.zctrl_tower.model.Formatter.setCountDownKeyRS'}"></core:CustomData>
+													</customData>
+												</Label>
+											</vbox>
+											<vbox class="sapMBtnInnerCustomFolder">
+												<Button icon="{path: 'Incident>isLocked', formatter: '.formatter.showFolder'}"
+													tooltip="{path: 'Incident>userName', formatter: '.formatter.displayUserLock'}" press="onListItemPress"></Button>
+											</vbox>
+										</Hbox>
+									</CustomListItem>
+								</List>
+							</l:content>
+						</l:VerticalLayout>
+					</l:Grid>
+				</ScrollContainer>
+				<!--CONTENT END-->
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

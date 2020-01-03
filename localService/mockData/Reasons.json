@@ -1,0 +1,15 @@
+{
+	"Reasons": [{
+		"key": "000",
+		"value": "Selecione uma Ação"
+	},{
+		"key": "001",
+		"value": "Ligar para Transportadora"
+	}, {
+		"key": "002",
+		"value": "Ligar para Motorista"
+	}, {
+		"key": "003",
+		"value": "Ligar para Cliente"
+	}]
+}

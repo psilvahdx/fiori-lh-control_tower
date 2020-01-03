@@ -1,0 +1,1910 @@
+{
+	"CustomizingCountry":[
+		{
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('AF')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('AF')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "AF",
+				"country": "AfeganistÃ£o"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('AL')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('AL')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "AL",
+				"country": "AlbÃ¢nia"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('DE')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('DE')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "DE",
+				"country": "Alemanha"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('AD')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('AD')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "AD",
+				"country": "Andorra"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('AO')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('AO')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "AO",
+				"country": "Angola"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('AI')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('AI')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "AI",
+				"country": "Anguilla"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('AN')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('AN')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "AN",
+				"country": "Antilhas Holan."
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('AQ')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('AQ')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "AQ",
+				"country": "AntÃ¡rtica"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('AG')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('AG')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "AG",
+				"country": "AntÃ­gua/Barbuda"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('AR')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('AR')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "AR",
+				"country": "Argentina"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('DZ')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('DZ')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "DZ",
+				"country": "ArgÃ©lia"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('AM')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('AM')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "AM",
+				"country": "ArmÃªnia"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('AW')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('AW')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "AW",
+				"country": "Aruba"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('SA')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('SA')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "SA",
+				"country": "ArÃ¡bia Saudita"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('AU')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('AU')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "AU",
+				"country": "AustrÃ¡lia"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('AZ')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('AZ')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "AZ",
+				"country": "AzerbaijÃ£o"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('BS')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('BS')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "BS",
+				"country": "Bahamas"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('BD')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('BD')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "BD",
+				"country": "Bangladesh"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('BB')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('BB')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "BB",
+				"country": "Barbados"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('BH')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('BH')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "BH",
+				"country": "Barein"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('BZ')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('BZ')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "BZ",
+				"country": "Belize"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('BJ')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('BJ')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "BJ",
+				"country": "Benin"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('BM')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('BM')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "BM",
+				"country": "Bermudas"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('BY')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('BY')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "BY",
+				"country": "Bielo-RÃºssia"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('BO')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('BO')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "BO",
+				"country": "BolÃ­via"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('BW')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('BW')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "BW",
+				"country": "Botsuana"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('BR')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('BR')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "BR",
+				"country": "Brasil"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('BN')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('BN')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "BN",
+				"country": "Brunei Darussal"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('BG')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('BG')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "BG",
+				"country": "BulgÃ¡ria"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('BF')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('BF')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "BF",
+				"country": "Burkina Fasso"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('BI')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('BI')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "BI",
+				"country": "Burundi"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('BT')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('BT')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "BT",
+				"country": "ButÃ£o"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('BE')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('BE')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "BE",
+				"country": "BÃ©lgica"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('BA')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('BA')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "BA",
+				"country": "BÃ³snia-Herzego."
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('CV')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('CV')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "CV",
+				"country": "Cabo Verde"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('CM')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('CM')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "CM",
+				"country": "CamarÃµes"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('KH')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('KH')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "KH",
+				"country": "Camboja"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('CA')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('CA')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "CA",
+				"country": "CanadÃ¡"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('QA')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('QA')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "QA",
+				"country": "Catar"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('KZ')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('KZ')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "KZ",
+				"country": "CazaquistÃ£o"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('TD')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('TD')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "TD",
+				"country": "Chade"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('CL')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('CL')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "CL",
+				"country": "Chile"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('CN')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('CN')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "CN",
+				"country": "China"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('CY')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('CY')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "CY",
+				"country": "Chipre"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('SG')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('SG')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "SG",
+				"country": "Cingapura"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('CO')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('CO')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "CO",
+				"country": "ColÃ´mbia"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('CG')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('CG')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "CG",
+				"country": "Congo"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('CD')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('CD')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "CD",
+				"country": "Congo"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('KP')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('KP')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "KP",
+				"country": "CorÃ©ia do Norte"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('KR')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('KR')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "KR",
+				"country": "CorÃ©ia do Sul"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('CR')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('CR')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "CR",
+				"country": "Costa Rica"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('CI')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('CI')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "CI",
+				"country": "Costa do Marfim"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('HR')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('HR')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "HR",
+				"country": "CroÃ¡cia"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('CU')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('CU')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "CU",
+				"country": "Cuba"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('DK')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('DK')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "DK",
+				"country": "Dinamarca"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('DJ')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('DJ')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "DJ",
+				"country": "Djibuti"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('DM')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('DM')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "DM",
+				"country": "Dominica"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('US')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('US')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "US",
+				"country": "EUA"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('EG')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('EG')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "EG",
+				"country": "Egito"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('SV')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('SV')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "SV",
+				"country": "El Salvador"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('AE')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('AE')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "AE",
+				"country": "Emir.Ãrabes Uni"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('EC')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('EC')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "EC",
+				"country": "Equador"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('ER')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('ER')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "ER",
+				"country": "Eritreia"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('SK')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('SK')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "SK",
+				"country": "EslovÃ¡quia"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('SI')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('SI')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "SI",
+				"country": "EslovÃªnia"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('ES')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('ES')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "ES",
+				"country": "Espanha"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('EE')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('EE')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "EE",
+				"country": "EstÃ´nia"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('ET')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('ET')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "ET",
+				"country": "EtiÃ³pia"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('RU')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('RU')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "RU",
+				"country": "FederaÃ§Ã£o Russa"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('FJ')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('FJ')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "FJ",
+				"country": "Fiji"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('PH')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('PH')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "PH",
+				"country": "Filipinas"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('FI')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('FI')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "FI",
+				"country": "FinlÃ¢ndia"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('FR')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('FR')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "FR",
+				"country": "FranÃ§a"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('GA')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('GA')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "GA",
+				"country": "GabÃ£o"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('GH')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('GH')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "GH",
+				"country": "Gana"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('GE')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('GE')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "GE",
+				"country": "GeÃ³rgia"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('GI')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('GI')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "GI",
+				"country": "Gibraltar"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('GD')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('GD')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "GD",
+				"country": "Granada"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('GL')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('GL')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "GL",
+				"country": "GroenlÃ¢ndia"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('GR')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('GR')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "GR",
+				"country": "GrÃ©cia"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('GP')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('GP')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "GP",
+				"country": "Guadalupe"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('GU')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('GU')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "GU",
+				"country": "Guam"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('GT')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('GT')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "GT",
+				"country": "Guatemala"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('GY')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('GY')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "GY",
+				"country": "Guiana"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('GF')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('GF')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "GF",
+				"country": "Guiana Francesa"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('GN')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('GN')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "GN",
+				"country": "GuinÃ©"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('GQ')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('GQ')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "GQ",
+				"country": "GuinÃ© Equator."
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('GW')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('GW')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "GW",
+				"country": "GuinÃ©-Bissau"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('GM')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('GM')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "GM",
+				"country": "GÃ¢mbia"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('HT')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('HT')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "HT",
+				"country": "Haiti"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('HM')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('HM')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "HM",
+				"country": "Heard/Ilh.McDon"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('HN')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('HN')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "HN",
+				"country": "Honduras"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('HK')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('HK')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "HK",
+				"country": "Hong Kong"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('HU')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('HU')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "HU",
+				"country": "Hungria"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('MP')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('MP')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "MP",
+				"country": "I.Mariana Norte"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('TC')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('TC')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "TC",
+				"country": "I.Turks, Caicos"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('VI')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('VI')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "VI",
+				"country": "I.Virgens Amer."
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('VG')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('VG')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "VG",
+				"country": "I.Virgens Brit."
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('WF')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('WF')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "WF",
+				"country": "I.Wallis e Fut."
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('UM')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('UM')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "UM",
+				"country": "Ilh.Minor Outl."
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('BV')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('BV')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "BV",
+				"country": "Ilhas Bouvet"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('KY')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('KY')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "KY",
+				"country": "Ilhas Cayman"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('CX')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('CX')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "CX",
+				"country": "Ilhas Christmas"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('CC')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('CC')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "CC",
+				"country": "Ilhas Cocos"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('KM')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('KM')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "KM",
+				"country": "Ilhas Comores"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('CK')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('CK')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "CK",
+				"country": "Ilhas Cook"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('FO')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('FO')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "FO",
+				"country": "Ilhas Faroe"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('FK')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('FK')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "FK",
+				"country": "Ilhas Malvinas"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('MH')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('MH')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "MH",
+				"country": "Ilhas Marshall"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('NU')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('NU')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "NU",
+				"country": "Ilhas Niue"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('NF')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('NF')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "NF",
+				"country": "Ilhas Norfolk"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('PN')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('PN')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "PN",
+				"country": "Ilhas Pitcairn"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('SB')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('SB')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "SB",
+				"country": "Ilhas SalomÃ£o"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('GS')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('GS')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "GS",
+				"country": "Ilhas Sandwich"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('TK')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('TK')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "TK",
+				"country": "Ilhas Tokelau"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('ID')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('ID')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "ID",
+				"country": "IndonÃ©sia"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('IQ')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('IQ')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "IQ",
+				"country": "Iraque"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('IE')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('IE')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "IE",
+				"country": "Irlanda"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('IR')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('IR')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "IR",
+				"country": "IrÃ£"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('IS')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('IS')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "IS",
+				"country": "IslÃ¢ndia"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('IL')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('IL')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "IL",
+				"country": "Israel"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('IT')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('IT')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "IT",
+				"country": "ItÃ¡lia"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('YU')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('YU')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "YU",
+				"country": "IugoslÃ¡via"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('YE')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('YE')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "YE",
+				"country": "IÃªmen"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('JM')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('JM')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "JM",
+				"country": "Jamaica"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('JP')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('JP')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "JP",
+				"country": "JapÃ£o"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('JO')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('JO')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "JO",
+				"country": "JordÃ¢nia"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('KI')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('KI')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "KI",
+				"country": "Kiribati"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('KW')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('KW')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "KW",
+				"country": "Kuwait"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('LA')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('LA')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "LA",
+				"country": "Laos"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('LS')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('LS')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "LS",
+				"country": "Lesoto"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('LV')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('LV')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "LV",
+				"country": "LetÃ´nia"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('LR')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('LR')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "LR",
+				"country": "LibÃ©ria"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('LI')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('LI')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "LI",
+				"country": "Liechtenstein"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('LT')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('LT')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "LT",
+				"country": "LituÃ¢nia"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('LU')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('LU')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "LU",
+				"country": "Luxemburgo"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('LB')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('LB')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "LB",
+				"country": "LÃ­bano"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('LY')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('LY')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "LY",
+				"country": "LÃ­bia"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('MO')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('MO')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "MO",
+				"country": "Macau"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('MK')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('MK')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "MK",
+				"country": "MacedÃ´nia"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('MG')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('MG')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "MG",
+				"country": "Madagascar"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('MW')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('MW')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "MW",
+				"country": "Malavi"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('MV')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('MV')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "MV",
+				"country": "Maldivas"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('ML')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('ML')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "ML",
+				"country": "Mali"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('MT')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('MT')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "MT",
+				"country": "Malta"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('MY')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('MY')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "MY",
+				"country": "MalÃ¡sia"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('MA')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('MA')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "MA",
+				"country": "Marrocos"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('MQ')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('MQ')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "MQ",
+				"country": "Martinica"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('MR')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('MR')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "MR",
+				"country": "MauritÃ¢nia"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('MU')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('MU')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "MU",
+				"country": "MaurÃ­cio"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('YT')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('YT')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "YT",
+				"country": "Mayotte"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('FM')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('FM')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "FM",
+				"country": "MicronÃ©sia"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('MD')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('MD')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "MD",
+				"country": "MoldÃ¡via"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('MN')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('MN')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "MN",
+				"country": "MongÃ³lia"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('MS')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('MS')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "MS",
+				"country": "Montserrat"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('MZ')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('MZ')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "MZ",
+				"country": "MoÃ§ambique"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('MM')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('MM')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "MM",
+				"country": "Myanmar"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('MX')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('MX')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "MX",
+				"country": "MÃ©xico"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('MC')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('MC')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "MC",
+				"country": "MÃ´naco"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('NA')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('NA')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "NA",
+				"country": "NamÃ­bia"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('NR')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('NR')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "NR",
+				"country": "Nauru"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('NP')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('NP')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "NP",
+				"country": "Nepal"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('NI')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('NI')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "NI",
+				"country": "NicarÃ¡gua"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('NG')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('NG')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "NG",
+				"country": "NigÃ©ria"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('NO')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('NO')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "NO",
+				"country": "Noruega"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('NC')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('NC')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "NC",
+				"country": "Nova CaledÃ´nia"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('NZ')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('NZ')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "NZ",
+				"country": "Nova ZelÃ¢ndia"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('NE')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('NE')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "NE",
+				"country": "NÃ­ger"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('OM')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('OM')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "OM",
+				"country": "OmÃ£"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('PW')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('PW')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "PW",
+				"country": "Palaus"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('PA')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('PA')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "PA",
+				"country": "PanamÃ¡"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('PG')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('PG')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "PG",
+				"country": "Papua Nov.GuinÃ©"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('PK')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('PK')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "PK",
+				"country": "PaquistÃ£o"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('PY')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('PY')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "PY",
+				"country": "Paraguai"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('NL')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('NL')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "NL",
+				"country": "PaÃ­ses Baixos"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('PE')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('PE')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "PE",
+				"country": "Peru"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('PF')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('PF')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "PF",
+				"country": "PolinÃ©sia Franc"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('PL')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('PL')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "PL",
+				"country": "PolÃ´nia"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('PR')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('PR')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "PR",
+				"country": "Porto Rico"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('PT')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('PT')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "PT",
+				"country": "Portugal"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('KG')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('KG')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "KG",
+				"country": "QuirguÃ­zia"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('KE')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('KE')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "KE",
+				"country": "QuÃªnia"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('GB')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('GB')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "GB",
+				"country": "Reino Unido"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('CF')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('CF')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "CF",
+				"country": "Rep.Centro-Afr."
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('DO')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('DO')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "DO",
+				"country": "Rep.Dominicana"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('CZ')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('CZ')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "CZ",
+				"country": "RepÃºblica Checa"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('RE')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('RE')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "RE",
+				"country": "ReuniÃ£o"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('RO')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('RO')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "RO",
+				"country": "RomÃªnia"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('RW')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('RW')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "RW",
+				"country": "Ruanda"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('KN')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('KN')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "KN",
+				"country": "S.Crist.e Nevis"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('ST')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('ST')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "ST",
+				"country": "S.TomÃ© e PrÃ­nc."
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('AS')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('AS')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "AS",
+				"country": "Samoa Americana"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('WS')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('WS')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "WS",
+				"country": "Samoa Ocidental"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('SM')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('SM')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "SM",
+				"country": "San Marino"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('SH')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('SH')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "SH",
+				"country": "Santa Helena"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('EH')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('EH')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "EH",
+				"country": "Sara ocidental"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('SN')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('SN')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "SN",
+				"country": "Senegal"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('SL')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('SL')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "SL",
+				"country": "Serra Leoa"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('SC')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('SC')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "SC",
+				"country": "Seychelles"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('SO')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('SO')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "SO",
+				"country": "SomÃ¡lia"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('LK')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('LK')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "LK",
+				"country": "Sri Lanka"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('LC')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('LC')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "LC",
+				"country": "St.Lucia"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('PM')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('PM')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "PM",
+				"country": "StPier.,Miquel."
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('SZ')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('SZ')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "SZ",
+				"country": "SuazilÃ¢ndia"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('SD')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('SD')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "SD",
+				"country": "SudÃ£o"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('SR')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('SR')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "SR",
+				"country": "Suriname"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('SE')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('SE')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "SE",
+				"country": "SuÃ©cia"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('CH')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('CH')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "CH",
+				"country": "SuÃ­Ã§a"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('SJ')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('SJ')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "SJ",
+				"country": "Svalbard"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('VC')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('VC')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "VC",
+				"country": "SÃ£o Vicente"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('SY')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('SY')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "SY",
+				"country": "SÃ­ria"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('TJ')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('TJ')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "TJ",
+				"country": "TadjiquistÃ£o"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('TH')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('TH')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "TH",
+				"country": "TailÃ¢ndia"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('TW')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('TW')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "TW",
+				"country": "Taiwan"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('TZ')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('TZ')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "TZ",
+				"country": "TanzÃ¢nia"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('IO')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('IO')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "IO",
+				"country": "Terr.Brit.Oc.In"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('TF')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('TF')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "TF",
+				"country": "Territ.franc.S"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('TP')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('TP')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "TP",
+				"country": "Timor Leste"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('TG')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('TG')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "TG",
+				"country": "Togo"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('TO')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('TO')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "TO",
+				"country": "Tonga"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('TT')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('TT')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "TT",
+				"country": "Trinidad,Tobago"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('TN')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('TN')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "TN",
+				"country": "TunÃ­sia"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('TM')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('TM')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "TM",
+				"country": "TurcomÃªnia"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('TR')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('TR')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "TR",
+				"country": "Turquia"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('TV')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('TV')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "TV",
+				"country": "Tuvalu"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('UA')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('UA')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "UA",
+				"country": "UcrÃ¢nia"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('UG')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('UG')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "UG",
+				"country": "Uganda"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('UY')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('UY')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "UY",
+				"country": "Uruguai"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('UZ')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('UZ')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "UZ",
+				"country": "UzbequistÃ£o"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('VU')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('VU')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "VU",
+				"country": "Vanuatu"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('VA')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('VA')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "VA",
+				"country": "Vaticano"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('VE')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('VE')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "VE",
+				"country": "Venezuela"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('VN')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('VN')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "VN",
+				"country": "VietnÃ£"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('ZW')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('ZW')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "ZW",
+				"country": "ZimbÃ¡bue"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('ZM')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('ZM')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "ZM",
+				"country": "ZÃ¢mbia"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('ZA')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('ZA')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "ZA",
+				"country": "Ãfrica do Sul"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('AT')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('AT')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "AT",
+				"country": "Austria"
+			}, {
+				"__metadata": {
+					"id": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('IN')",
+					"uri": "http://crd1.la.holcim.net:8000/sap/opu/odata/sap/ZCRM_BUPA_EXT_SRV/CustomizingCountryCollection('IN')",
+					"type": "ZCRM_BUPA_EXT_SRV.CustomizingCountry"
+				},
+				"countryID": "IN",
+				"country": "India"
+			}
+		]
+	
+}

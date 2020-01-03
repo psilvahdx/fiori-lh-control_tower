@@ -1,0 +1,103 @@
+<edmx:Edmx
+    xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx"
+    xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata"
+    xmlns:sap="http://www.sap.com/Protocols/SAPData" Version="1.0">
+    <edmx:DataServices m:DataServiceVersion="2.0">
+        <Schema
+            xmlns="http://schemas.microsoft.com/ado/2008/09/edm" Namespace="ZAPP_CTRL_TWR_SRV" xml:lang="pt" sap:schema-version="1">
+            <EntityType Name="UserDetail" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="Uname"/>
+                </Key>
+                <Property Name="Address" Type="ZAPP_CTRL_TWR_SRV.Address" Nullable="false"/>
+                <Property Name="Uname" Type="Edm.String" Nullable="false" MaxLength="12" sap:unicode="false" sap:label="Nome do usuário" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Country" Type="Edm.String" Nullable="false" MaxLength="3" sap:unicode="false" sap:label="País" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+            </EntityType>
+            <EntityType Name="Incident" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="ObjName"/>
+                </Key>
+                <Property Name="JsonObj" Type="Edm.String" Nullable="false" sap:unicode="false" sap:label="Objeto Json" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="ObjName" Type="Edm.String" Nullable="false" MaxLength="40" sap:unicode="false" sap:label="Nome Objeto" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+            </EntityType>
+            <EntityType Name="CustomizingCountry" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="countryID"/>
+                </Key>
+                <Property Name="countryID" Type="Edm.String" Nullable="false" MaxLength="3" sap:unicode="false" sap:label="País" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="country" Type="Edm.String" Nullable="false" MaxLength="15" sap:unicode="false" sap:label="Denominação" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+            </EntityType>
+            <ComplexType Name="Address">
+                <Property Name="Standardaddress" Type="Edm.Boolean" Nullable="false" sap:label="Ender.standard" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="COName" Type="Edm.String" Nullable="false" MaxLength="40" sap:label="C/o" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="City" Type="Edm.String" Nullable="false" MaxLength="40" sap:label="Local" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="District" Type="Edm.String" Nullable="false" MaxLength="40" sap:label="Bairro" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Regiogroup" Type="Edm.String" Nullable="false" MaxLength="8" sap:label="Agrp.estrut.reg" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="PostlCod1" Type="Edm.String" Nullable="false" MaxLength="10" sap:label="Código postal" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="PostlCod2" Type="Edm.String" Nullable="false" MaxLength="10" sap:label="CEP CxPostal" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="PostlCod3" Type="Edm.String" Nullable="false" MaxLength="10" sap:label="Cód.post.empr." sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Pcode1Ext" Type="Edm.String" Nullable="false" MaxLength="10" sap:label="Ampl.cód.postal" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Pcode2Ext" Type="Edm.String" Nullable="false" MaxLength="10" sap:label="Ampl.cód.postal" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Pcode3Ext" Type="Edm.String" Nullable="false" MaxLength="10" sap:label="Ampl.cód.postal" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="PoBox" Type="Edm.String" Nullable="false" MaxLength="10" sap:label="Caixa postal" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="PoWONo" Type="Edm.Boolean" Nullable="false" sap:label="CxPostal sem nº" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="PoBoxCit" Type="Edm.String" Nullable="false" MaxLength="40" sap:label="Localid.cxPos." sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="PoBoxReg" Type="Edm.String" Nullable="false" MaxLength="3" sap:label="Região CP" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="PoboxCtry" Type="Edm.String" Nullable="false" MaxLength="3" sap:label="País cx.postal" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="PoCtryiso" Type="Edm.String" Nullable="false" MaxLength="2" sap:label="Código ISO" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Street" Type="Edm.String" Nullable="false" MaxLength="60" sap:label="Rua" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="StrAbbr" Type="Edm.String" Nullable="false" MaxLength="2" sap:label="Abreviatura rua" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="HouseNo" Type="Edm.String" Nullable="false" MaxLength="10" sap:label="Nº" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="HouseNo2" Type="Edm.String" Nullable="false" MaxLength="10" sap:label="Suplemento" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="HouseNo3" Type="Edm.String" Nullable="false" MaxLength="10" sap:label="Área do nº" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="StrSuppl1" Type="Edm.String" Nullable="false" MaxLength="40" sap:label="Rua 2" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="StrSuppl2" Type="Edm.String" Nullable="false" MaxLength="40" sap:label="Rua 3" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="StrSuppl3" Type="Edm.String" Nullable="false" MaxLength="40" sap:label="Rua 4" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Location" Type="Edm.String" Nullable="false" MaxLength="40" sap:label="Rua 5" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Building" Type="Edm.String" Nullable="false" MaxLength="20" sap:label="Sigla edifício" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Floor" Type="Edm.String" Nullable="false" MaxLength="10" sap:label="Andar" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="RoomNo" Type="Edm.String" Nullable="false" MaxLength="10" sap:label="Nº sala" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Country" Type="Edm.String" Nullable="false" MaxLength="3" sap:label="País" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Countryiso" Type="Edm.String" Nullable="false" MaxLength="2" sap:label="Código ISO" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Region" Type="Edm.String" Nullable="false" MaxLength="3" sap:label="Região" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="TimeZone" Type="Edm.String" Nullable="false" MaxLength="6" sap:label="Fuso horário" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Taxjurcode" Type="Edm.String" Nullable="false" MaxLength="15" sap:label="DomicílioFiscal" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="HomeCity" Type="Edm.String" Nullable="false" MaxLength="40" sap:label="Local.res.dif." sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Transpzone" Type="Edm.String" Nullable="false" MaxLength="10" sap:label="Zona transporte" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Langu" Type="Edm.String" Nullable="false" MaxLength="2" sap:label="Idioma" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Languiso" Type="Edm.String" Nullable="false" MaxLength="2" sap:label="Idioma (ISO)" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="CommType" Type="Edm.String" Nullable="false" MaxLength="3" sap:label="Meio comunicação" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Extaddressnumber" Type="Edm.String" Nullable="false" MaxLength="20" sap:label="Nº externo" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="DontUseP" Type="Edm.String" Nullable="false" MaxLength="4" sap:label="ImpossibEntrega" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="DontUseS" Type="Edm.String" Nullable="false" MaxLength="4" sap:label="ImpossibEntrega" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="MoveDate" Type="Edm.DateTime" Precision="7" sap:label="Mudança para" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="MoveAddress" Type="Edm.String" MaxLength="10" sap:label="Destino mudança" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Validfromdate" Type="Edm.DateTime" Precision="7" sap:label="Válido desde" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Validtodate" Type="Edm.DateTime" Precision="7" sap:label="Válido até" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="MoveAddrGuid" Type="Edm.String" Nullable="false" MaxLength="32" sap:label="GUID" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="CityNo" Type="Edm.String" Nullable="false" MaxLength="12" sap:label="Nº localidade" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="DistrctNo" Type="Edm.String" Nullable="false" MaxLength="8" sap:label="Bairro" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Chckstatus" Type="Edm.String" Nullable="false" MaxLength="1" sap:label="St.verif." sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="PboxcitNo" Type="Edm.String" Nullable="false" MaxLength="12" sap:label="Nº localidade" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="StreetNo" Type="Edm.String" Nullable="false" MaxLength="12" sap:label="Nº rua" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Homecityno" Type="Edm.String" Nullable="false" MaxLength="12" sap:label="Nº localidade" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="PoBoxLobby" Type="Edm.String" Nullable="false" MaxLength="40" sap:label="Ag.caixa postal" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="DeliServType" Type="Edm.String" Nullable="false" MaxLength="4" sap:label="Tp.serv.entrega" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="DeliServNumber" Type="Edm.String" Nullable="false" MaxLength="10" sap:label="Nº serviço entrega" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="County" Type="Edm.String" Nullable="false" MaxLength="40" sap:label="Distrito" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="CountyNo" Type="Edm.String" Nullable="false" MaxLength="8" sap:label="CódMunicípio" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="Township" Type="Edm.String" Nullable="false" MaxLength="40" sap:label="Cidade" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+                <Property Name="TownshipNo" Type="Edm.String" Nullable="false" MaxLength="8" sap:label="Código cidade" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
+            </ComplexType>
+            <EntityContainer Name="ZAPP_CTRL_TWR_SRV_Entities" m:IsDefaultEntityContainer="true" sap:supported-formats="atom json xlsx">
+                <EntitySet Name="UserDetailSet" EntityType="ZAPP_CTRL_TWR_SRV.UserDetail" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:addressable="false" sap:content-version="1"/>
+                <EntitySet Name="IncidentSet" EntityType="ZAPP_CTRL_TWR_SRV.Incident" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:addressable="false" sap:content-version="1"/>
+                <EntitySet Name="CustomizingCountryCollection" EntityType="ZAPP_CTRL_TWR_SRV.CustomizingCountry" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:addressable="false" sap:content-version="1"/>
+            </EntityContainer>
+            <atom:link
+                xmlns:atom="http://www.w3.org/2005/Atom" rel="self" href="./sap/ZAPP_CTRL_TWR_SRV/$metadata"/>
+                <atom:link
+                    xmlns:atom="http://www.w3.org/2005/Atom" rel="latest-version" href="./sap/ZAPP_CTRL_TWR_SRV/$metadata"/>
+                </Schema>
+            </edmx:DataServices>
+        </edmx:Edmx>

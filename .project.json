@@ -1,0 +1,22 @@
+{
+  "mockpreview": {
+    "mockUri": "/sap/opu/odata/sap/ZAPP_CTRL_TWR_SRV/",
+    "metadataFilePath": "localService/metadata.xml",
+    "loadJSONFiles": true,
+    "loadCustomRequests": false,
+    "mockRequestsFilePath": ""
+  },
+  "deploy": {
+    "destination": "HolcimCSD",
+    "name": "ZCTRL_TOWER"
+  },
+  "projectType": [
+    "sap.watt.uitools.ide.fiori",
+    "com.watt.common.builder.sapui5clientbuild"
+  ],
+  "build": {
+    "buildRequired": true,
+    "targetFolder": "dist",
+    "lastBuildDateTime": "Tue, 10 Dec 2019 14:59:21 GMT"
+  }
+}

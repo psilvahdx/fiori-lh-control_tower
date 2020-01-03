@@ -1,0 +1,9 @@
+{
+	"Kpi": [{
+		"key": "Outside SLA",
+		"value": 60
+	}, {
+		"key": "Within of the SLA",
+		"value": 134
+	}]
+}

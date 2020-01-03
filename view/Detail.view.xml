@@ -1,0 +1,116 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form"
+	controllerName="sap.holcim.zctrl_tower.controller.Detail">
+	<Page id="pageDetail" class="sapUiFioriObjectPage">
+		<customHeader>
+			<Bar>
+				<contentLeft>
+					<Button id="btnNavback" tooltip="{i18n>BTN_NAVBACK}" icon="sap-icon://nav-back" press="onNavBack"></Button>
+					<Button press="onNavHome" tooltip="{i18n>BTN_HOME}" icon="sap-icon://home"></Button>
+				</contentLeft>
+				<contentMiddle>
+					<Text class="sapMTitleStyleAutoCustom" text="{i18n>SUB_TITLE}"></Text>
+				</contentMiddle>
+				<contentRight>
+					<Image src="./imgs/LASER.png" tooltip="{i18n>SUB_LASER}" width="100px"></Image>
+				</contentRight>
+			</Bar>
+		</customHeader>
+		<ObjectHeader class="sapUiFioriObjectPage" responsive="true" fullScreenOptimized="false" 
+		title="{Incident>nomeCurto}"
+		number="{Incident>tknum}" 
+		numberState="{path: 'Incident>tripType' , formatter: '.formatter.formatStateTrip' }"
+		intro="{ parts: [ 'Incident>data', 'Incident>hora' ], formatter: '.formatter.formatDateTitle' }"
+		titleActive="false">
+		</ObjectHeader>
+		<content>
+			<l:Grid defaultSpan="L6 M6 S12" class="sapUiSmallMarginTop">
+				<l:VerticalLayout class="sapUiContentPadding" width="100%">
+					<l:content>
+						<ScrollContainer height="25rem" vertical="true" horizontal="false" class="formDetail">
+							<content>
+								<f:SimpleForm class="formDetail" maxContainerCols="2" layout="ResponsiveGridLayout" labelSpanL="3" labelSpanM="3" labelSpanS="3"
+									emptySpanL="0" emptySpanM="0" columnsL="2" columnsM="2" columnsXL="2">
+									<f:content>
+										<Label text="{i18n>LBL_VEHICLE}"/>
+										<Text text="{Incident>vehicle}"/>
+										<Label text="{i18n>LBL_DRIVER_NAME}"/>
+										<Text text="{Incident>lifnr} - {Incident>driverName}"/>
+										<Label text="{i18n>LBL_CARRIER}"/>
+										<Text text="{Incident>tdlnr} - {Incident>transpName} - {Incident>transpFone}"/>
+										<Label text="{i18n>LBL_ORIGEM}"/>
+										<Text text="{Incident>descOri}"/>
+									</f:content>
+								</f:SimpleForm>
+								<Label text="{i18n>LBL_DELIVERIES_TITLE}" class="sapMListHdrDetailCustom"></Label>
+								<List items="{Incident>destination}">
+									<CustomListItem>
+										<f:SimpleForm class="formDetail" maxContainerCols="2" layout="ResponsiveGridLayout" labelSpanL="3" labelSpanM="3" labelSpanS="3"
+											emptySpanL="0" emptySpanM="0" columnsL="2" columnsM="2" columnsXL="2">
+											<f:content>
+												<Label text="{Incident>entrCod}"/>
+												<Text text="{Incident>descDes}"></Text>
+											</f:content>
+										</f:SimpleForm>
+									</CustomListItem>
+								</List>
+								<Label text="{i18n>LBL_DETAIL_TITLE}" class="sapMListHdrDetailCustom"></Label>
+								<List items="{Incident>violation}">
+									<CustomListItem>
+										<f:SimpleForm class="formDetail" maxContainerCols="2" layout="ResponsiveGridLayout" labelSpanL="3" labelSpanM="3" labelSpanS="3"
+											emptySpanL="0" emptySpanM="0" columnsL="2" columnsM="2" columnsXL="2">
+											<f:content>
+												<Label text="{Incident>label}"/>
+												<Text text="{Incident>text}"></Text>
+											</f:content>
+										</f:SimpleForm>
+									</CustomListItem>
+								</List>
+							</content>
+						</ScrollContainer>
+						<List id="lstRelationIncident" headerText="{i18n>LBL_ALERTS_SAME_TRIP}" items="{Incident>relation}" mode="MultiSelect" showNoData="true"
+							selectionChange="onSelectionRelationChange" rememberSelections="false">
+							<CustomListItem type="{ path: 'Incident>closeFol', formatter: '.formatter.typeList' }" press="navToDetail">
+								<HBox>
+									<VBox class="sapUiSmallMarginBegin sapUiSmallMarginTopBottom customTextRelation">
+										<Text text="{Incident>nomeCurto}"/>
+									</VBox>
+									<VBox class="sapUiSmallMarginBegin sapUiSmallMarginTopBottom">
+										<Label text="{ parts: [ 'Incident>data', 'Incident>hora' ], formatter: '.formatter.formatDateTitle' }"/>
+									</VBox>
+									<VBox class="iconStatusIncident">
+										<core:Icon size="1.2rem" src="{parts: [ 'Incident>isLocked', 'Incident>closeFol' ], formatter: '.formatter.showStatusFollowup'}"
+											tooltip="{ parts: [ 'Incident>userName' , 'Incident>closeFol' ], formatter: '.formatter.showStatusTextFollowup' }"></core:Icon>
+									</VBox>
+								</HBox>
+							</CustomListItem>
+						</List>
+					</l:content>
+				</l:VerticalLayout>
+				<l:VerticalLayout class="sapUiContentPadding" width="100%">
+					<l:content>
+						<VBox fitContainer="true" justifyContent="Center" alignItems="Center">
+							<HBox width="600px" height="300px" id="map_canvas" fitContainer="true" justifyContent="Center" alignItems="Center"></HBox>
+						</VBox>
+						<VBox/>
+						<Select id="selReason" width="100%" items="{ReasonModel>/Reasons}" visible="false">
+							<core:Item text="{ReasonModel>descMot}" key="{ReasonModel>codMot}"/>
+						</Select>
+						<HBox>
+							<TextArea id="txtComents" value="{Incident>coments}" maxLength="255" rows="10" cols="100"></TextArea>
+						</HBox>
+						<HBox>
+							<RadioButtonGroup columns="5" class="sapUiMediumMarginBottom" select="onRbSelect">
+								<buttons>
+									<RadioButton id="RBValid" text="{i18n>RB_VALID}"/>
+									<RadioButton id="RBInvalid" text="{i18n>RB_INVALID}"/>
+								</buttons>
+							</RadioButtonGroup>
+							<Button id="btnSave" text="{i18n>BTN_SAVE}" enabled="{ path: 'Incident>userName', formatter: '.formatter.enableSave' }"
+								tooltip="{parts:['i18n>USER_LOCK' , 'Incident>userName'], formatter: 'jQuery.sap.formatMessage'}" press="onSave"></Button>
+						</HBox>
+					</l:content>
+				</l:VerticalLayout>
+			</l:Grid>
+		</content>
+	</Page>
+</core:View>

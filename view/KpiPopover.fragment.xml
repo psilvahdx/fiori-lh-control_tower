@@ -1,0 +1,8 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" >
+	<ResponsivePopover showHeader="false" class="sapUiPopupWithPadding" placement="Left">
+		<content>
+			<ObjectIdentifier title="{i18n>OUTSIDE_SLA_TXT}: {KpiSLA>/red}" ></ObjectIdentifier>
+			<ObjectIdentifier title="{i18n>WITHIN_SLA_TXT}: {KpiSLA>/green}"></ObjectIdentifier>
+		</content>
+	</ResponsivePopover>
+</core:FragmentDefinition>
