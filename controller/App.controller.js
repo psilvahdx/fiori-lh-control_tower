@@ -127,7 +127,7 @@ sap.ui.define([
 				if (aCountries.length > 0) {
 
 					try {
-						var oResult = aCountries.find(country => {
+						var oResult = aCountries.find(country => { 
 							return country.getProperty("countryID") === oKpi.land1;
 						});
 
